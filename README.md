@@ -2,7 +2,7 @@
 
 A professional, modular booking management system for Odoo 18 with website integration.
 
-##  Features
+## Features
 
 - **Multi-Module Architecture**: 4 specialized modules with clear separation of concerns
 - **Website Integration**: Beautiful, responsive booking interface for customers
@@ -13,7 +13,7 @@ A professional, modular booking management system for Odoo 18 with website integ
 - **Portal Access**: Customers can view and manage their bookings
 - **Analytics Dashboard**: Pivot and graph views for booking insights
 
-##  Modules
+## Modules
 
 ### 1. `om_service_master` - Data Layer
 
@@ -63,7 +63,7 @@ Customer-facing website interface.
 - Confirmation page
 - Responsive design
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 
@@ -134,7 +134,7 @@ git clone https://github.com/YOUR_USERNAME/booking_system.git
 └─────────────────────────────────────────┘
 ```
 
-##  Security
+## Security
 
 ### Access Groups
 
@@ -148,7 +148,7 @@ git clone https://github.com/YOUR_USERNAME/booking_system.git
 - Managers: See all appointments
 - Portal users: See only bookings linked to their partner
 
-##  Configuration
+## Configuration
 
 ### Email Templates
 
@@ -161,7 +161,7 @@ Customize email templates in: `om_service_operation/data/email_templates.xml`
 
 Configure in: `om_service_operation/data/cron_jobs.xml`
 
-##  Author
+## Author
 
 **Truong Hiep**
 
