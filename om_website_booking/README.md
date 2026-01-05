@@ -8,15 +8,15 @@ This module provides a public-facing website interface where customers can brows
 
 ## Features
 
-- ✅ **Public Service Catalog**: Grid-based service listing with images and pricing
-- ✅ **Online Booking Form**: User-friendly appointment scheduling
-- ✅ **Customer Management**: Automatic customer creation/update
-- ✅ **Real-time Validation**: Overlap checking and date validation
-- ✅ **Confirmation Page**: Appointment details and reference number
-- ✅ **Error Handling**: User-friendly error messages
-- ✅ **Responsive Design**: Mobile-first, works on all devices
-- ✅ **Modern UI/UX**: Gradient backgrounds, animations, smooth transitions
-- ✅ **Form Validation**: Client-side and server-side validation
+-  **Public Service Catalog**: Grid-based service listing with images and pricing
+-  **Online Booking Form**: User-friendly appointment scheduling
+-  **Customer Management**: Automatic customer creation/update
+-  **Real-time Validation**: Overlap checking and date validation
+-  **Confirmation Page**: Appointment details and reference number
+-  **Error Handling**: User-friendly error messages
+-  **Responsive Design**: Mobile-first, works on all devices
+-  **Modern UI/UX**: Gradient backgrounds, animations, smooth transitions
+-  **Form Validation**: Client-side and server-side validation
 
 ## Module Information
 
@@ -113,38 +113,6 @@ This module provides a public-facing website interface where customers can brows
 - Retry and navigation options
 - User-friendly error descriptions
 
-## Static Assets
-
-### CSS (`booking.css`)
-
-**Styling Highlights**:
-
-- Custom gradient backgrounds
-- Smooth hover transitions
-- Card shadow effects
-- Responsive breakpoints
-- Animation keyframes
-- Loading spinner
-- Form styling
-
-**Color Scheme**:
-
-- Primary gradient: `#667eea` to `#764ba2`
-- Success: `#28a745`
-- Danger: `#dc3545`
-- Neutral grays for text
-
-### JavaScript (`booking.js`)
-
-**Functionality**:
-
-- Set minimum date to current datetime
-- Future date validation
-- Phone number formatting
-- Form submission loading state
-- Smooth scroll navigation
-- Service card scroll animations
-
 ## User Flow
 
 ```
@@ -214,60 +182,6 @@ A "Book a Service" menu item is automatically added to the main website navigati
 2. Edit "Book a Service" menu
 3. Change sequence, parent, or URL as needed
 
-## Testing
-
-### Manual Testing Checklist:
-
-1. **Service Catalog**:
-
-   - Access `/booking` as public user
-   - Verify all active services display
-   - Check images, prices, durations
-   - Test responsive layout
-
-2. **Booking Form**:
-
-   - Click "Book Now" on a service
-   - Verify form loads correctly
-   - Test all required field validation
-   - Check date picker minimum date
-
-3. **Create Appointment**:
-
-   - Submit valid booking
-   - Verify redirect to success page
-   - Check appointment created in backend
-   - Verify customer created/updated
-
-4. **Overlap Validation**:
-
-   - Create appointment for Service A at 10:00
-   - Try booking Service A at 10:30 (should fail)
-   - Verify error message displays
-
-5. **Mobile Responsiveness**:
-   - Test on mobile device or emulator
-   - Verify layout adapts correctly
-   - Check all buttons are clickable
-
-## Customization
-
-### Styling
-
-Modify `static/src/css/booking.css` to change:
-
-- Color scheme
-- Layout spacing
-- Animation effects
-- Typography
-
-### Templates
-
-Edit XML templates in `views/website_booking_templates.xml` to:
-
-- Change page structure
-- Add/remove fields
-- Modify content
 
 ### Controllers
 
